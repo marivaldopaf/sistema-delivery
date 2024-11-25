@@ -2,6 +2,10 @@ package com.atividade3;
 
 import java.util.UUID;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -9,5 +13,6 @@ import java.util.UUID;
 public class PermissaoUsuario {
     private UUID id;
     private String nome;
-    private String dscricao;
+    private String descricao;
+
 }
