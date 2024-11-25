@@ -8,8 +8,6 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 
-
-
 public class Produto {
     private UUID id;
     private String nome;
@@ -19,16 +17,4 @@ public class Produto {
     private Boolean ativo;
     private List<String> tags;
 
-    public Produto(UUID id, String nome, String codigoBarras, String descricao, BigDecimal valor, Boolean ativo,
-            List<String> tags) {
-        this.id = id;
-        this.nome = nome;
-        this.codigoBarras = codigoBarras;
-        this.descricao = descricao;
-        this.valor = valor;
-        this.ativo = ativo;
-        this.tags = tags;
-    }
-    public Produto() {
-    }
 }

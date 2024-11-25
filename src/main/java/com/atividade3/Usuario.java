@@ -7,23 +7,6 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public Usuario(UUID id, String nomeCompleto, String apelido, String cpf, String email, String senha,
-            LocalDateTime dataCadastro, LocalDateTime nascimento, String urlFoto) {
-        this.id = id;
-        this.nomeCompleto = nomeCompleto;
-        this.apelido = apelido;
-        this.cpf = cpf;
-        this.email = email;
-        this.senha = senha;
-        this.dataCadastro = dataCadastro;
-        this.nascimento = nascimento;
-        this.urlFoto = urlFoto;
-    }
-    public Usuario() {
-    }
-
-
-
 public class Usuario {
     private UUID id;
     private String nomeCompleto;
@@ -33,8 +16,6 @@ public class Usuario {
     private String senha;
     private LocalDateTime dataCadastro;
     private LocalDateTime nascimento;
-    private Map<String, String>
-    private String urlFoto;
-    
-    
+    private Map<String, String>;
+    private String urlFoto;   
 }

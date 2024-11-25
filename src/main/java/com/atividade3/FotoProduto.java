@@ -5,6 +5,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class FotoProduto {
     private UUID id;
     private String titulo;
